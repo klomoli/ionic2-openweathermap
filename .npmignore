@@ -7,7 +7,3 @@ yarn.lock
 Thumbs.db
 .DS_Store
 .vscode
-
-# Ignored files & folders
-*.ts
-!*.d.ts

@@ -28,7 +28,7 @@ npm install --save ionic-openweathermap
 Add the `OpenWeatherMapComponent` in the declarations of your `app.module.ts`
 
 ```typescript
-import { OpenWeatherMapModule } from 'openweathermap';
+import { OpenWeatherMapModule } from 'ionic-openweathermap';
 @NgModule({
   declarations: [
   ],

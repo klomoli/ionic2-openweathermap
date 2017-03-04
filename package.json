@@ -1,6 +1,6 @@
 {
   "name": "ionic-openweathermap",
-  "version": "0.0.11",
+  "version": "0.0.13",
   "description": "An OpenWeatherMap Component for Ionic2",
   "main": "index.js",
   "scripts": {
