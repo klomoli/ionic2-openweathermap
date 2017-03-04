@@ -1,6 +1,6 @@
 #An OpenWeatherMap Component for Ionic2
 
-
+<img src="https://github.com/klomoli/ionic2-openweathermap/blob/master/1488494397_box.png">
 
 An Angular2 component to visualize the **current weather data** for any location on Earth using **OpenWeatherMap**.
 
