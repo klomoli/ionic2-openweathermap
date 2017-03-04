@@ -1,12 +1,16 @@
 {
   "name": "ionic-openweathermap",
-  "version": "0.0.8",
+  "version": "0.0.10",
   "description": "An OpenWeatherMap Component for Ionic2",
   "main": "index.js",
   "scripts": {
     "ngc": "ngc",
     "build": "rm -rf aot dist && npm run ngc",
     "publishPackage": "npm run build && npm publish"
+  },
+  "repository": {
+    "type":"git",
+    "url": "git+https://github.com/klomoli/ionic2-openweathermap"
   },
   "devDependencies": {
     "@angular/common": "2.2.1",
@@ -28,7 +32,7 @@
     "ionic2",
     "weather"
   ],
-
+  "typings": "./dist/index.d.ts",
   "author": "Ismael Morales <klomoli@gmail.com>",
   "license": "MIT"
 }
