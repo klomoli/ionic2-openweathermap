@@ -91,6 +91,50 @@ options3 = {
 }
 ```
 
+##Styles
+
+The following styles are available to customize:
+
+```css
+
+#weatherDescription {
+
+}
+
+#weatherGroup {
+
+}
+
+#temperature {
+
+}
+
+#windSpeed {
+
+}
+
+#humidity {
+
+}
+
+#maxTemp {
+
+}
+
+#minTemp {
+
+}
+#pressure {
+
+}
+
+.content-box {
+
+}
+
+```
+
+
 ##Authors
 
  **Ismael Morales**

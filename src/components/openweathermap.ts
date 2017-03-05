@@ -5,20 +5,20 @@ import { OpenWeatherMapProvider } from '../providers/openweathermap-provider';
   selector: 'openweathermap',
   styles: [`
     .content-box {
-      background-color:#ddd;
       font-family: 'Open Sans', sans-serif;
       font-size:1.5rem;
     }
   `],
   template: 
-    `<div class="content-box"> <p id="weatherDescription">Weather description: {{openweathermapProvider.weatherDescription}}</p>
-      <p id="weatherGroup">Weather group: {{openweathermapProvider.weatherGroup}}</p>
-      <p id="temperature">Current temperature: {{openweathermapProvider.temperature}}°</p>
-      <p id="windSpeed">Wind speed: {{openweathermapProvider.windSpeed}} Km/h</p>
-      <p id="humidity">Humidity: {{openweathermapProvider.humidity}}%</p>
-      <p id="maxTemp">Max temperature: {{openweathermapProvider.minTemp}}°</p> 
-      <p id="minTemp">Min temperature: {{openweathermapProvider.maxTemp}}°</p> 
-      <p id="pressure">Atmospheric pressure: {{openweathermapProvider.athmosphericPressure}} hPa</p></div>`,
+    `<div class="content-box"> 
+      <p id="weatherDescription">{{openweathermapProvider.weatherDescription}}</p>
+      <p id="weatherGroup">{{openweathermapProvider.weatherGroup}}</p>
+      <p id="temperature">{{openweathermapProvider.temperature}}°</p>
+      <p id="windSpeed">W{{openweathermapProvider.windSpeed}} Km/h</p>
+      <p id="humidity">{{openweathermapProvider.humidity}}%</p>
+      <p id="maxTemp">{{openweathermapProvider.minTemp}}°</p> 
+      <p id="minTemp">{{openweathermapProvider.maxTemp}}°</p> 
+      <p id="pressure">{{openweathermapProvider.athmosphericPressure}} hPa</p></div>`,
   providers: [OpenWeatherMapProvider]
   })
 
