@@ -91,10 +91,6 @@ options3 = {
 }
 ```
 
-##Style
-
-You can customize the weather-box.scss and weather-box.html template.
-
 ##Authors
 
  **Ismael Morales**
