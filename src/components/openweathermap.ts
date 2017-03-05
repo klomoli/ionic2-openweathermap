@@ -14,7 +14,7 @@ import { OpenWeatherMapProvider } from '../providers/openweathermap-provider';
       <p id="weatherDescription">{{openweathermapProvider.weatherDescription}}</p>
       <p id="weatherGroup">{{openweathermapProvider.weatherGroup}}</p>
       <p id="temperature">{{openweathermapProvider.temperature}}°</p>
-      <p id="windSpeed">W{{openweathermapProvider.windSpeed}} Km/h</p>
+      <p id="windSpeed">{{openweathermapProvider.windSpeed}} Km/h</p>
       <p id="humidity">{{openweathermapProvider.humidity}}%</p>
       <p id="maxTemp">{{openweathermapProvider.minTemp}}°</p> 
       <p id="minTemp">{{openweathermapProvider.maxTemp}}°</p> 
