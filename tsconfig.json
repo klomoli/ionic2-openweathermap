@@ -10,12 +10,13 @@
     "lib": ["dom", "es2015"],
     "outDir": "./dist"
   },
-  "exclude": [
-    "node_modules",
-    "dist",
-    "scripts"
+  "files": [
+    "index.ts",
+    "src/components/openweathermap.ts",
+    "src/providers/openweathermap-provider.ts"
   ],
-  "angularCompilerOptions": {
-    "genDir": "aot"
-  }
+  "exclude":[
+    "dist",
+    "node_modules"
+  ]
 }

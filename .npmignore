@@ -1,4 +1,8 @@
 # Node generated files
+src
+.gitignore
+.npmignore
+aot
 node_modules
 npm-debug.log
 yarn.lock
@@ -7,3 +11,5 @@ yarn.lock
 Thumbs.db
 .DS_Store
 .vscode
+
+tsconfig.json
