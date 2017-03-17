@@ -1,11 +1,11 @@
-#An OpenWeatherMap Component for Ionic2
+# An OpenWeatherMap Component for Ionic2
 
 <img src="https://github.com/klomoli/ionic2-openweathermap/blob/master/1488494397_box.png">
 
 An Angular2 component to visualize the **current weather data** for any location on Earth using **OpenWeatherMap**.
 
 
-##Weather parameters in API respond
+## Weather parameters in API respond
 - Group of weather parameters (Rain, Snow, Extreme, etc)
 - Weather description within the group
 - Temperature
@@ -17,7 +17,7 @@ An Angular2 component to visualize the **current weather data** for any location
 
 [API data information in OpenWeatherMap](http://openweathermap.org/current)
 
-##Installation
+## Installation
 
 Make sure you have Ionic and Angular installed.
 
@@ -43,7 +43,7 @@ export class AppModule {}
 
 The Weather Box use the OpenWeatherMapProvider
 
-##Usage
+## Usage
 
 Add the `openweathermap` property in your HTML .
 
@@ -91,7 +91,7 @@ options3 = {
 }
 ```
 
-##Styles
+## Styles
 
 The following styles are available to customize:
 
@@ -135,7 +135,7 @@ The following styles are available to customize:
 ```
 
 
-##Authors
+## Authors
 
  **Ismael Morales**
 
@@ -148,6 +148,6 @@ The following styles are available to customize:
 </a>
 
 
-##License
+## License
 
 This project is licensed under the terms of the MIT license.
